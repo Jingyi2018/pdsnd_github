@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+11/25/2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+The project analyze data on bikeshare data from three cities: Chicago, New York City and Washington, based on user input.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare_jn-3.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I referred to this thread on stackoverflow for taking user inputs
 
+https://stackoverflow.com/questions/14907067/how-do-i-restart-a-program-based-on-user-input#
