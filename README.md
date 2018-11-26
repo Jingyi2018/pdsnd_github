@@ -2,7 +2,7 @@
 11/25/2018
 
 ### Project Title
-Bikeshare
+Explore US Bikeshare Data
 
 ### Description
 The project analyze data on bikeshare data from three cities: Chicago, New York City and Washington, based on user input.
