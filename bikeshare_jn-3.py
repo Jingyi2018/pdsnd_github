@@ -185,14 +185,14 @@ def view_rawdata(df):
         answer=input('\n Would you like to see the first 5 lines of raw data? Enter yes or no.\n')
         if answer.lower()=='no':
             break
-        else:
+        elif answer.lower()=='yes':
             print (df.iloc[0:5])
             count=6
             while True:
                 answer=input('\n Would you like to see another 5 lines of raw data? Enter yes or no.\n')
                 if answer.lower()=='no':
                     break
-                else:
+                elif answer.lower()=='yes':
                     print (df.iloc[count:count+5])
                     count=count+6
 
