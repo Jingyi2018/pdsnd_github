@@ -181,14 +181,20 @@ def user_stats(df):
     #Prompt the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', and continue these prompts and displays until the user says 'no'.
 
 def view_rawdata(df):
-    count=0
     while True:
-        answer=input('\n Would you like to see the 5 lines of raw data? Enter yes or no.\n')
+        answer=input('\n Would you like to see the first 5 lines of raw data? Enter yes or no.\n')
         if answer.lower()=='no':
             break
         else:
-            print (df.iloc[count:count+5])
-            count=count+6
+            print (df.iloc[0:5])
+            count=6
+            while True:
+                answer=input('\n Would you like to see another 5 lines of raw data? Enter yes or no.\n')
+                if answer.lower()=='no':
+                    break
+                else:
+                    print (df.iloc[count:count+5])
+                    count=count+6
 
 def main():
     while True:
